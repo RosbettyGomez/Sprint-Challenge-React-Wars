@@ -26,19 +26,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
-React JS is a User Interface Componenet Library. It's a library built in Javascript to build out user interfaces. If a page has data that changes at high rates over time, then there is a requirement for DOM updates to be very fast. React solves this problem, without even needing the page to reload.
+React JS is a User Interface Componenet Library. It's a library built in Javascript that is used to build out large web applications. If a page has data that changes at high rates over time, then there is a requirement for DOM updates to be very fast. React solves this problem, without even needing the page to reload.
 
 - [ ] What does it mean to _think_ in react?
 
-
+To _think_ in react means having the ability to recognize the tree of components when looking at a webpage. 
 
 - [ ] Describe state.
 
-
+State is data displayed to the screen for users.
 
 - [ ] Describe props.
 
+Props are considered helper objects. They store information to be passed onto other components.
+
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+Side effects are anything that affects something outside the scope of the function being executed.
 
 ## Project Set Up
 
@@ -48,8 +52,8 @@ Follow these steps to set up and work on your project:
 - [ x] Add TL as collaborator on Github.
 - [ x] Clone your OWN version of Repo. **(Not Lambda's by mistake!)**
 - [ x] Create a new Branch locally: `git checkout -b <firstName-lastName>`.
-- [ ] Change directories into `./starwars` (`cd starwars`) and run `yarn install` or `npm install` to retrieve all needed dependencies.
-- [ ] Once you have installed the _node_modules_, run `yarn start` or `npm start` to get your server up and running.
+- [x ] Change directories into `./starwars` (`cd starwars`) and run `yarn install` or `npm install` to retrieve all needed dependencies.
+- [x ] Once you have installed the _node_modules_, run `yarn start` or `npm start` to get your server up and running.
 - [ ] With the server up and running, open Chrome and head over to `localhost:3000` and view your beautiful app. Maybe it's not _that_ pretty... _yet_, your goal is to ensure this project becomes a thing of beauty.
 Follow these steps for completing your project.
 - [ ] Implement the project on this Branch, **committing progress & changes often.**
